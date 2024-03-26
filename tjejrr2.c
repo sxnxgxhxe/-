@@ -4,7 +4,7 @@ void main()
 {
 	int a;
 
-	printf("Á¡¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+	printf("ÃÄ„ÅºÃ¶Â¸Åš Å”Ã”Ë‡Ã‚Ã‡ÄÅºÅºÅ¼Ã¤ : ");
 	scanf_s("%d", &a);
 	
 	switch (a/10)
@@ -22,12 +22,7 @@ void main()
 	case 6:
 		printf("D");
 		break;
-	case 5:
-	case 4:
-	case 3:
-	case 2:
-	case 1:
-	case 0:
+	default:
 		printf("F");
 		break;
 	}
