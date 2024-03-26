@@ -5,30 +5,30 @@ void main()
 	int a, b;
 	char ch;
 
-	printf("Ã¹ ¹øÂ° ¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä :");
+	printf("ì²« ë²ˆì§¸ ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš” :");
 	scanf_s("%d", &a);
 
-	printf("°è»êÇÒ ¿¬»êÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä :");
-	scanf_s(" %c", &ch);
+	printf("ê³„ì‚°í•  ì—°ì‚°ìë¥¼ ì…ë ¥í•˜ì„¸ìš” :");  
+	scanf_s(" %c", &ch); //ë„ì–´ì“°ê¸°ë¥¼ í•´ì£¼ì
 
-	printf("µÎ ¹øÂ° ¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä :");
+	printf("ë‘ ë²ˆì§¸ ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš” :");
 	scanf_s("%d", &b);
 
 	if (ch == '+')
-		printf("%d + %d = %d ÀÔ´Ï´Ù. \n", a, b, a + b);
+		printf("%d + %d = %d ì…ë‹ˆë‹¤. \n", a, b, a + b);
 
 	else if (ch == '-')
-		printf("%d - %d = %d ÀÔ´Ï´Ù. \n", a, b, a - b);
+		printf("%d - %d = %d ì…ë‹ˆë‹¤. \n", a, b, a - b);
 
 	else if (ch == '*')
-		printf("%d * %d = %d ÀÔ´Ï´Ù. \n", a, b, a * b);
+		printf("%d * %d = %d ì…ë‹ˆë‹¤. \n", a, b, a * b);
 
 	else if (ch == '/')
-		printf("%d / %d = %f ÀÔ´Ï´Ù. \n", a, b, a / (float)b);
+		printf("%d / %d = %f ì…ë‹ˆë‹¤. \n", a, b, a / (float)b);
 
 	else if (ch == '%')
-		printf("%d %% %d = %d ÀÔ´Ï´Ù. \n", a, b, a % b);
+		printf("%d %% %d = %d ì…ë‹ˆë‹¤. \n", a, b, a % b);
 
 	else
-		printf("¿¬»êÀÚ¸¦ Àß¸ø ÀÔ·ÂÇß½À´Ï´Ù");
+		printf("ì—°ì‚°ìë¥¼ ì˜ëª» ì…ë ¥í–ˆìŠµë‹ˆë‹¤");
 }
